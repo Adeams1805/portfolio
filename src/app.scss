@@ -1,0 +1,80 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body, html {
+    width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+    height: 100vh;
+    background-image: url('/images/bg-astronomy.jpg');
+    background-size: cover;
+}
+
+#root {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+//VARIABLES
+:root {
+    --big-font-size: 40px;
+    --mb-font-size: 30px;
+    --h3-font-size: 23px;
+    --medium-font-size: 20px;
+    --ms-font-size: 17px;
+    --small-font-size: 14px;
+
+    --pink: #e53c79;
+    --yellow: #f2c91c;
+    --blue: #34b6b0;
+}
+
+@import "styles/header.scss";
+@import "styles/nav.scss";
+@import "styles/footer.scss";
+@import "styles/home.scss";
+@import "styles/autres.scss";
+@import "styles/program.scss";
+
+@media screen and (max-width: 1600px) {
+    :root {
+        --big-font-size: 36px;
+        --mb-font-size: 22px;
+        --h3-font-size: 19px;
+        --medium-font-size: 17px;
+        --ms-font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    :root {
+        --big-font-size: 34px;
+        --mb-font-size: 19px;
+        --h3-font-size: 17px;
+        --medium-font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    :root {
+        --big-font-size: 32px;
+        --mb-font-size: 16px;
+        --h3-font-size: 15px;
+        --medium-font-size: 15px;
+        --ms-font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    :root {
+        --big-font-size: 30px;
+        --medium-font-size: 14px;
+        --ms-font-size: 12px;
+        --small-font-size: 10px;
+    }
+}
