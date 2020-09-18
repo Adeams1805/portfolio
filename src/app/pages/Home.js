@@ -13,7 +13,10 @@ function HomeTranslated (props) {
   
     return (
         <div id="home">
-            <p>{t('about')}</p>
+            <p>
+                {t('about')}<br/><br/>
+                maeva.boyaval<i class="fa fa-at" aria-hidden="true"></i>gmail.com
+            </p>
         </div>
     )
 }
